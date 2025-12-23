@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Giahan P — Personal Website</title>
+  <meta name="description" content="Personal website of Giahan P — developer, designer, and builder." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">Giahan P</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="nav" class="site-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <h1>Hi — I’m Giahan P.</h1>
+        <p class="lead">I build web apps, explore modern JS tooling, and love clean design. (Placeholder — replace with your bio.)</p>
+        <p class="cta">
+          <a href="#projects" class="btn">See my work</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <p>Short bio goes here. Replace this placeholder with 2–3 sentences about your background, specialties, and interests.</p>
+      <ul class="meta">
+        <li><strong>Location:</strong> [City, Country]</li>
+        <li><strong>Role:</strong> Developer / Designer</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Project One</h3>
+          <p>Short description — what it does and the tech used.</p>
+          <p><a href="#" class="link">View repo</a></p>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>Short description — what it does and the tech used.</p>
+          <p><a href="#" class="link">View demo</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p>If you’d like to work together or want to say hi, email me at <a id="email-link" href="mailto:you@example.com">you@example.com</a> or use the links below.</p>
+      <div class="social">
+        <a href="https://github.com/giahanpb" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a> ·
+        <a href="#" target="_blank" rel="noopener">Twitter</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Giahan P — Built with ♥</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
